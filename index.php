@@ -17,19 +17,25 @@
   </head>
 
   <body>
-    <form class="form-signin">
+
       <div class="text-center mb-4">
         <img class="mb-4" src="logo.png">
          <p>Генератор случайных блюд</p>
       </div>
+   <center>  <B> <?php
+    # Если кнопка нажата
+    if( isset( $_POST['nazvanie_knopki'] ) )
+    {
+        $array = explode("\n", file_get_contents('FoodDB.txt'));
+        $chislo = rand(0, count ($array));
+        print_r($array[$chislo]);
+    }
+?></b>
+<form method="POST"><br>
+<center>   
+        <button type="submit" class="btn btn-warning" name="nazvanie_knopki" value="Сварганить" >Сварганить</button></center> 
 
-    <center>   
-        <button type="button" class="btn btn-warning">Сварганить</button></center> 
-      <php>
-          $array = explode("\n", file_get_contents('FoodDB.txt'));
-      </php>
-
-      <p class="mt-5 mb-3 text-muted text-center">&copy; 2018</p>
-    </form>
+</form>
+<p class="mt-5 mb-3 text-muted text-center">&copy; 2018</p>
   </body>
 </html>
