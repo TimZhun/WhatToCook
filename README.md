@@ -1,3 +1,3 @@
 # WhatToCook
 Приложени которое просто подсказывает, что приготовить
-![альт картинки](https://lh3.googleusercontent.com/oTFQ74IkbeAFbqHQgnGEVRUWoaGVTdkL8z0upvbn0DzXrXhbYE6AbKqtDr1C9qJkU06YbVFRO9qQk-FC__Ix=w1326-h668-rw "опциональный тайтл картинки")
+![альт картинки](http://images.vfl.ru/ii/1526628473/1b76a38f/21788149.png"опциональный тайтл картинки")
